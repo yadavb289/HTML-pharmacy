@@ -1,0 +1,113 @@
+.container {
+    /* border: 3px solid rgb(217, 40, 40);
+margin: 5%;
+height: auto; */
+    border: 2px solid black;
+    margin: 80px;
+    height: auto;
+
+}
+
+.container1 {
+    /* margin: 2% 8%;
+    border-color: #75d673;
+    padding: 2px;
+    height: 302px;
+    overflow: auto; */
+
+    margin: 2% 8%;
+
+    padding: 3px;
+    height: 296px;
+    overflow: auto;
+    position: sticky;
+
+}
+
+.formcontent {
+
+    /* overflow: auto; */
+    padding: 5%;
+    /* float: left; */
+    /* border: none; */
+    display: inline-flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+
+}
+
+.container1 #form {
+
+    /* background-color: antiquewhite;
+    display: inline-block;
+    width: 50%;
+    overflow: auto; */
+
+
+    display: inline-flex;
+    width: 50%;
+    overflow: auto;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: max-content;
+
+}
+
+.container1 #image {
+    width: 50%;
+    float: right;
+
+}
+
+img {
+    width: 36%;
+    height: 295px;
+    display: block;
+    float: right;
+    position: fixed;
+}
+
+#btn {
+
+    /* background-color: #afcfc0; */
+    position: end;
+    margin: 3% 25% 1%;
+
+
+}
+
+btn-txt {
+    font-size: 15px;
+    padding: 2px;
+    margin-inline: 21px;
+
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+
+input {
+
+    margin: 2px;
+    font-size: 12px;
+    padding: 3%;
+    border: none;
+    border-bottom: solid #adb4cc;
+}
+
+
+
+.heading {
+    font-size: 20px;
+    color: 2px solid black;
+    margin-top: 16px;
+}
+
+label {
+    font-size: 14px;
+    margin: 2px auto;
+
+}
